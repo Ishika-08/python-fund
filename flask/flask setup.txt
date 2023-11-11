@@ -1,0 +1,9 @@
+python -m venv venv
+.\venv\Scripts\activate
+
+to install flask in work folder:
+py -m pip install flask
+
+to run flask app:
+python -m flask --app .\app.py run
+or python -m flask run
